@@ -1,5 +1,5 @@
 import requests
-#coded by frostedflakes666
+
 def save_content_from_links(links, destination_file):
     with open(destination_file, 'a') as file:
         for link in links:
