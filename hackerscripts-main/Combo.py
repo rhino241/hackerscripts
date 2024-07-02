@@ -11,7 +11,7 @@ def copy_combos(source_file, destination_file):
     with open(destination_file, 'a') as destination:
         destination.writelines(combos)
 
-    print(f"Combos copied from {source_file} to {destination_file}. Coded By FrostedFlakes666 SKIDDDSS")
+    print(f"Combos copied from {source_file} to {destination_file}.")
 
 # Example usage
 source_file = combolist  # Replace with the actual name of your source file
